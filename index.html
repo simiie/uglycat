@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>UGLYCAT</title> 
     <style>
+        body{
+            padding:0;
+            margin:0;
+        }
         .olivia{
             background-color:pink;
             color:grey;
@@ -73,6 +77,63 @@ border-radius:10px;
                 padding:10px;
                 text-align:center;
             }
+            .pricing{
+                color:grey;
+                background-color:antiquewhite;
+                text-align:center;
+                /* height:70vh; */
+                display:flex;
+                justify-content:space-around;
+                /* flex-direction: row; */
+                }
+                .english{
+                    font-family:courier;
+                    color:grey;
+                    font-size:medium;
+                   
+                }
+                .freesection{
+                    /* background-color: white; */
+                    font-family:verdana;
+                  
+                }
+                .pricingheader{
+                    /* font-size:60px !important; */
+                    margin:0;
+                    /* border-bottom:2px solid black; */
+                    background-color:#bada55;
+                    /* padding:top&bottom left&right; */
+                    padding: 10px 0;
+
+                }
+                .prosection{
+                    font-size:medium;
+                    color:grey;
+                }
+                .ayotee{
+                    background-color:indianred;
+                    padding:10px;
+                    color:black;
+                    margin-bottom:15px;
+                }
+                .atm{
+                    display:flex;
+                    border: 5px solid #bada55;
+                    background-color:pink;
+                    /* justify-content: center; */
+                    /* align-items:center; */
+                    flex-direction: column;
+                    margin:5px 0;
+                    /* padding:10px; */
+                    min-width: 200px;
+                }
+                .pricingsection{
+                    background-color:antiquewhite;
+                }
+                button{
+                    border:none;
+                    border-radius: 10px;
+                }
          </style>
 </head>
         <body>
@@ -82,16 +143,14 @@ border-radius:10px;
                 <h1>Album example</h1> 
                 <p class="paragraph">Something short and leading about the coolection below-its contents, the creator, etc.Make it short and sweet, but not too short<br>so folks don't simply skip over it entirely.</p>
            
-
-
-        <div>
-            <button class="bluebotton">Main call to action
+            <div>
+                <button class="bluebotton">Main call to action
       
             </button>
             <button class="blackbutton">Secondary action
             </button>
-        </div>
-    </div>
+            </div>
+            </div>
 
 
 
@@ -139,7 +198,81 @@ border-radius:10px;
                 </div>
             </div>
         </div>
+        </div>
+   
+     <section class="pricingsection">
+
+        <h1>Ugly cats club</h1>
+        <p class="english"> Quickly build an effective pricing table for your potential customers with this Bootstrap<br>example. its built with default Bootstrap components and utilities with little customization.
+        </p>
+
+    <div class="pricing">
+
+        <div class="atm">
+        <div class="freesection">
+                <h3 class="pricingheader">free</h3>
+            <div class="prosection">
+                <h1>  $0/mo</h1>
+                <p>
+             10 users included<br>2 GB of storage<br>Email support<br>Help center access
+                </p>
+            <div>
+                
+            <button class="ayotee">sign up for free 
+               </button> 
+            </div>
+
+
+            </div>
+
+        </div>
+
+        </div>
+        
+        <div class="atm">
+            <div class="freesection">
+                <h3 class="pricingheader">Pro</h3>
+            <div class="prosection">
+               <h1>  $15/mo</h1>
+                <p>
+               20 users included<br>10 GB of storage<br>Email support<br>Help center access
+                </p>
+            <div>
+                
+            <button class="ayotee">Get started
+               </button> 
+            </div>
+
+
+            </div>
+
+            </div>
+
+         </div>
+        <div class="atm">
+            <div class="freesection">
+                <h3 class="pricingheader">Enterprise</h3>
+            <div class="prosection">
+                <h1>  $29/mo</h1>
+                <p>
+            30 users included<br>15 GB of storage<br>Email support<br>Help center access
+                </p>
+            <div>
+                
+            <button class="ayotee">Contact us
+               </button> 
+            </div>
+
+
+            </div>
+
+             </div>
+
+        </div>
     </div>
 
-</body>
+     </section>
+    
+
+   </body>
 </html>
